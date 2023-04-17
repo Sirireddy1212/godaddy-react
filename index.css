@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* body{
+  display: flex;
+  justify-content: space-around;
+} */
+
+nav {
+
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding:10px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  padding: 0 28px;
+
+}
+
+a:hover {
+  color: rgb(47, 46, 46);
+  animation-timing-function: ease;
+}
+
+#logo {
+  height: 50px;
+  width: 200px;
+
+}
+.cart {
+  width: 30px;
+  height: 30px;
+}
+
+.inputwrapper {
+  flex: 7;
+  align-items: center;
+
+}
+
+.inputwrapper input {
+  padding: 20px;
+  width: 70%;
+  border: none;
+  background-color: lightgrey;
+  font-size: large;
+
+}
+
+.inputwrapper button {
+  padding: 20px;
+  background-color: #2e828c;
+  color: white;
+  width: 200px;
+  border: none;
+  font-size: large;
+
+
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 70px;
+  gap: 20px;
+
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  padding-right: 130px;
+  gap: 50px;
+
+}
+
+.prices p {
+
+  text-align: center;
+
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-right: 40px;
+
+}
+h2 {
+  font-size: 50px;
+  padding-left: 5px;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.leftmain {
+  height: 450px;
+  width: 70%;
+  background-color: #F0EBE9;
+  margin-right: 25px;
+  padding-left: 30px;
+  text-align: left;
+
+}
+
+.rightmain {
+  height: 450px;
+  width: 30%;
+  background-color: #D7EFEF;
+  padding-left: 25px;
+
+}
+
+.mainimage {
+  height: 400px;
+  width: 55%;
+  position: relative;
+  bottom: 400px;
+  left: 370px;
+
+}
+
+.mainmiddle,
+.mainmiddle2 {
+  margin: 25px 0px;
+  padding: 15px;
+}
+
+.mainmiddle3 {
+  margin-top: 9px;
+  padding: 8px;
+}
+
+
+button {
+  margin: 25px 0px;
+  padding: 15px;
+  background-color: #111111;
+  color: white;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.rightmainbtn {
+  width: 80%;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  padding-right: 130px;
+  gap: 50px;
+
+}
+
+.prices p {
+
+  text-align: center;
+
+}
